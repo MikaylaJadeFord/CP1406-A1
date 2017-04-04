@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{
+	padding: 10%;
+}
+body{
+	text-align: center;
+	background-image: url(sand.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #cccccc; 
+	color: black;
+	margin: 7%;
+}
+h1{
+	color: black;
+	font-size: 40px;
+	font-weight: bolder;
+	background-color: wheat;
+	background-position: center;
+	padding: 2%;
+}
+p{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: cadetblue;
+	background-position: center;
+	padding: 1%;
+}
+p1{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: bisque;
+	background-position: center;
+	padding: 1%;
+}
+p2{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: cadetblue;
+	background-position: center;
+	padding: 1%;
+}
