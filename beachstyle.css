@@ -56,7 +56,8 @@ table{
 	background-color: wheat;
 	padding: 1%;
 }
-input [type=text], input[type=phone number]{
+input{ 
+	[type=text], input[type=phone number]
     width: 100%;
 	background-color: white;
     padding: 12px 20px;
