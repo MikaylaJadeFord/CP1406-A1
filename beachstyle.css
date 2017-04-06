@@ -3,6 +3,7 @@
 
 img{
 	padding: 2%;
+	align-content: center;
 }
 body{
 	text-align: center;
@@ -55,7 +56,7 @@ table{
 	background-color: wheat;
 	padding: 1%;
 }
-input[type=text], input[type=password] {
+input [type=text], input[type=phone number]{
     width: 100%;
 	background-color: white;
     padding: 12px 20px;
@@ -64,7 +65,7 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-button {
+button{
     background-color: greenyellow;
     color: black;
     padding: 14px 20px;
@@ -73,24 +74,24 @@ button {
     cursor: pointer;
     width: 100%;
 }
-.cancelbtn {
+.cancelbtn{
     padding: 14px 20px;
     background-color: darkorange;
 }
-.cancelbtn,.signupbtn {
+.cancelbtn,.signupbtn{
     float: left;
     width: 50%;
 }
-.container {
+.container{
     padding: 16px;
 }
-.clearfix::after {
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
 }
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
+@media screen and (max-width: 300px){
+    .cancelbtn, .signupbtn{
         width: 100%;
     }
 }
