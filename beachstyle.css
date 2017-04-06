@@ -2,14 +2,14 @@
 /* CSS Document */
 
 img{
-	padding: 10%;
+	padding: 2%;
 }
 body{
 	text-align: center;
 	background-image: url(sand.jpg); 
-	background-position: center;
-	background-repeat: no-repeat;
+	background-position: center; 
 	background-size: cover;
+	background-repeat:repeat;
 	background-color: #cccccc; 
 	color: black;
 	margin: 7%;
@@ -45,4 +45,52 @@ p2{
 	background-color: cadetblue;
 	background-position: center;
 	padding: 1%;
+}
+id{
+	color: black;
+	font-size: 10px;
+	padding: 20%;
+}
+table{
+	background-color: wheat;
+	padding: 1%;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+	background-color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: greenyellow;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: darkorange;
+}
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+.container {
+    padding: 16px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
 }
